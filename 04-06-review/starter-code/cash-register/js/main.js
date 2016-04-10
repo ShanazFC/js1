@@ -1,7 +1,6 @@
 var $form = $('#entry');
 var $costInput = $('#newEntry');
 
-
 $(function() {
 	// when I submit the form, grab the input
   $form.on('submit', function(event) {
@@ -13,7 +12,6 @@ $(function() {
     if (entry==0 || $.isNumeric(entry)==false ){
       alert("You shall not pass!");
     }
-
     //otherwise
 		else {
 		//pull the cost out every time I submit and replace with nothing.
@@ -27,28 +25,22 @@ $(function() {
 			$td.html(currency);
 			$tr.append($td);
 			$("#entries").append($tr);
-
     } //end appendNumber
 			//run the function
 			appendNumber(entry);
-      console.log("Johnny is awesome! Thank you! You rock");
+      console.log("Johnny is awesome! Thank you! You rock^7no1NTgu1T^");
       // get each of the entries
       var entries = $(".item").map(function() {
         return $(this).html().substring(1);
       }).get();
-
       console.log(entries);
-
       //add the entries
       var total = 0;
       for (var i = 0; i < entries.length; i++) {
         total += entries[i] << 0;
       }
-
       //print the total
       $('#total').html("$" + total);
-
-      //grab the values
     } //end else
   });//end form submit function
 });
@@ -56,17 +48,12 @@ $(function() {
 
 // turn entry into currency format
 function currencyFormat(number) {
-
   // Convert the number to decimal
   var currency = parseFloat(number);
-
   // Round to 2 decimal places
   currency = currency.toFixed(2);
-
   // Add the $ before the number
   currency = '$' + currency;
-
   // Send back the result
   return currency;
-
 }
