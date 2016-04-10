@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled 
+4d74ab95585a72a41a2e9e7329b57caa53c1dcaf refs/heads/collections-and-loops-prep
+1f203ef89c3c879b9a257a83fe8d18defbb86d5e refs/heads/command-line-prep
+766214653bfaa9f7337e00c7f2a1c5905922dfdf refs/heads/data-types-prep
+968434d2791f1d6f0a7f6393d5ebf252cbbf92f7 refs/heads/installfest-prep
+4cbf84c48047c9d752072c0d9b8b50d7757dc878 refs/heads/master
+2ab8623620d6fc8326421e4714fba098ff23da8f refs/heads/office-hours
+bcde1c10e9d59348f9096e2f36c61f2050794dcf refs/heads/project-1
+002736ebf4368aef8854ea2c2a7fbffbdbfb7fa8 refs/heads/week-of-3-21-lessons
