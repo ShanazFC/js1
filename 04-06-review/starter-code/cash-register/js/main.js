@@ -31,7 +31,7 @@ $(function() {
     } //end appendNumber
 			//run the function
 			appendNumber(entry);
-      console.log("Johnny is awesome! Thank you!");
+      console.log("Johnny is awesome! Thank you! You rock");
       // get each of the entries
       var entries = $(".item").map(function() {
         return $(this).html().substring(1);
